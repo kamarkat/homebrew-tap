@@ -3,27 +3,27 @@
 class Kakt < Formula
   desc "Establishes an enterprise-grade cloud platform in your own infrastructure"
   homepage "https://github.com/kamarkat/kamarkat"
-  version "0.3.7"
+  version "0.3.8"
 
   on_macos do
     on_arm do
-      url "https://github.com/kamarkat/kamarkat/releases/download/v0.3.7/kakt-darwin-arm64"
-      sha256 "add1a08de4f0fe0e445409212d34500905e3b9b47d227506a1daff6f38d5be61"
+      url "https://github.com/kamarkat/kamarkat/releases/download/v0.3.8/kakt-darwin-arm64"
+      sha256 "5fd4f27d5ea4f150295cc37bb4b5476d4bb2af9772dceb3210da4fe302454fda"
     end
     on_intel do
-      url "https://github.com/kamarkat/kamarkat/releases/download/v0.3.7/kakt-darwin-amd64"
-      sha256 "00241ff9f6b923829ea79570761cd57121fb4961f95eeed0c21bfdb6703ea90b"
+      url "https://github.com/kamarkat/kamarkat/releases/download/v0.3.8/kakt-darwin-amd64"
+      sha256 "1242a1dd47cbcf74dc3ea9d26e842df290c9dc3486c3d102cf7a1a1d9960da35"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kamarkat/kamarkat/releases/download/v0.3.7/kakt-linux-arm64"
-      sha256 "757aa85126f36f03a5d05a7f93c42bc59bb4128a1bd10add951578b6e2318a60"
+      url "https://github.com/kamarkat/kamarkat/releases/download/v0.3.8/kakt-linux-arm64"
+      sha256 "7bc4c4388baf79a63370cc5c933b864f376e5e2fca0c3d395d0e6fe3eba77181"
     end
     on_intel do
-      url "https://github.com/kamarkat/kamarkat/releases/download/v0.3.7/kakt-linux-amd64"
-      sha256 "be0e4eb7fe75931c75c833208125f2caa351a2592bb25d51206cd6d451d4abd2"
+      url "https://github.com/kamarkat/kamarkat/releases/download/v0.3.8/kakt-linux-amd64"
+      sha256 "78401b218fb89b0f773b4ee8f855344fc92fbc250e03d2c5b43a8fc64e578232"
     end
   end
 
